@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bat-Gym</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <header>
+        <img src="https://images.seeklogo.com/logo-png/1/2/batman-logo-png_seeklogo-17070.png" alt="">
+        <div class="titulo">
+        <h1>Bat-Gym</h1>
+        <p>Welcome to the Cave</p>
+        </div>
+        </header>
+
+    <form action="https://formspree.io/f/mjygggwe" method="post">
+        <h1>Cadastro</h1>
+
+        <label for="">Seu nome:</label>
+        <input type="text" id="nome" name= "nome" placeholder="Ex: Bruce Wayne">
+
+        <label for="">Data de nascimento:</label>
+        <input type="date" id="data" name= "data" placeholder="Ex: 19/02/1972">
+
+        <label for="">E-mail:</label>
+        <input type="text" id="email" name= "email" placeholder="Ex: bruce@wayne.inc">
+
+        <label for="">CPF:</label>
+        <input type="text" id="cpf" name= "cfp" placeholder="Ex: 12345678900 (apenas números)">
+
+        <label for="">Telefone:</label>
+        <input type="text" id="tel" name= "tel" placeholder="Ex: (12)91234-5678 (apenas números)">
+
+        <label for="">Gênero:</label>
+        <div class="genero-grupo">
+            <input type="radio" id="Feminino" name="genero" value="feminino">
+            <label for="Feminino" class="radio-label">Feminino</label>
+
+            <input type="radio" id="Masculino" name="genero" value="masculino">
+            <label for="Masculino" class="radio-label">Masculino</label>
+
+            <input type="radio" id="Outro" name="genero" value="outro">
+            <label for="Outro" class="radio-label">Outro</label>
+        </div>
+
+        <label for="">Endereço:</label>
+        <input type="text" id="endereco" name= "endereco" placeholder="Ex: Rua xxx, 67, Bairro xxx, Gotham City">
+
+        <button type="submit">Fazer Cadastro</button>
+
+    </form>
+
+
+</body>
+</html>
